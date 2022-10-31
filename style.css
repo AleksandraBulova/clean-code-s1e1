@@ -10,6 +10,7 @@
   margin: 0 auto;
   display: block;
   text-align: right;
+  margin-bottom: 20px;
 }
 
 .header__logo {
@@ -34,7 +35,8 @@
   margin: 0 auto 0;
 }
 
-.adding-box__input {
+.adding-box__input,
+.task-list__task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -64,7 +66,8 @@
 }
 
 .task-list__task__edit-button,
-.task-list__task__remove-button {
+.task-list__task__remove-button,
+.adding-box__button {
   background: none;
   border: 0px;
   color: #888;
@@ -94,6 +97,7 @@
 
 .task-list__task__input,
 .adding-box__input {
+  flex-grow: 1;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
